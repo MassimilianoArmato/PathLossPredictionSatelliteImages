@@ -4,7 +4,7 @@ import numpy as np
 
 import h5py
 from datetime import datetime
-
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 class fileGen():
 
